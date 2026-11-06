@@ -1,0 +1,65 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="c_UTaScBE0_Dt71SzTcn">
+    <mxGraphModel dx="749" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-5" edge="1" parent="1" source="SEHuv1PPYJrUxls5Z0t4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="SEHuv1PPYJrUxls5Z0t4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Главная БД, имеет доступ и терминал, и ЛК врача" vertex="1">
+          <mxGeometry height="90" width="160" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ЛК врача, имеет доступ только врач" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-3" edge="1" parent="1" source="SEHuv1PPYJrUxls5Z0t4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.365;entryDx=0;entryDy=0;entryPerimeter=0;" target="SEHuv1PPYJrUxls5Z0t4-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="112.85" />
+              <mxPoint x="400" y="112.85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-9" edge="1" parent="1" source="SEHuv1PPYJrUxls5Z0t4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SEHuv1PPYJrUxls5Z0t4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Терминал, может делать запросы с БД, не может менять содержимое" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-10" edge="1" parent="1" source="SEHuv1PPYJrUxls5Z0t4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="SEHuv1PPYJrUxls5Z0t4-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640.03" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Вспомогательная БД людей, пропустивших таблетки. Врач имеет доступ, но не может менять содержмое" vertex="1">
+          <mxGeometry height="110" width="150" x="580" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-7" edge="1" parent="1" source="SEHuv1PPYJrUxls5Z0t4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.657;entryDx=0;entryDy=0;entryPerimeter=0;" target="SEHuv1PPYJrUxls5Z0t4-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140.03" y="269.43" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-8" edge="1" parent="1" source="SEHuv1PPYJrUxls5Z0t4-1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=-0.008;entryY=0.39;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="SEHuv1PPYJrUxls5Z0t4-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="210" as="sourcePoint" />
+            <mxPoint x="440" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-11" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="SEHuv1PPYJrUxls5Z0t4-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="110" as="sourcePoint" />
+            <mxPoint x="570" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEHuv1PPYJrUxls5Z0t4-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1) Врач не имеет прямого доступа к терминалу.&lt;div&gt;2) Терминал подразумевает прочтение карты(или Qr) врача&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="50" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
